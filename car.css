@@ -1,0 +1,175 @@
+@font-face {
+    font-family: 'Ermilov';
+    src: url('/fonts/Ermilov.eot');
+    src: url('/fonts/Ermilov.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Ermilov.woff2') format('woff2'),
+         url('/fonts/Ermilov.woff') format('woff'),
+         url('/fonts/Ermilov.ttf')  format('truetype'),
+         url('/fonts/Ermilov.svg#Ermilov') format('svg');
+}
+  * {
+    font-family: 'Ermilov';
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+    text-decoration: none ;
+    font-style: normal;
+  }
+  body{
+   width: 1920px;
+   height: 228px;
+   padding: 30px 320px 112px 203px;
+   background-image: linear-gradient(to bottom, rgba(37, 114, 230, 0.5) 0%, rgba(37, 114, 230, 0) 50% ) ;
+   background-repeat: no-repeat;
+   }
+   .logo{
+     width: 70px;
+     height:70px ;
+     top: 30px ;
+     left: 207px ;
+     border: 2.7px;
+  }
+  .minilogo{
+     position: absolute;
+     width: 80px;
+     height: 87px;
+     top: 40px;
+     left: 207px;
+   }
+    .items_menu a {
+    text-decoration:none;
+    color: white;
+    }
+    .items_menu  div {
+    background:rgb(29, 29, 27, 1);
+    }
+    .items_menu{
+    margin-left: 100px;
+    }
+    .menu_list li a{
+    position: relative;
+    background:rgb(29, 29, 27, 1);
+    display:flex;
+    padding: 20px;
+    width: 150px;
+     justify-content: center;
+    }
+    .menu_list li {
+    font-weight: 700;
+    color: #1d1d1b;
+    position: relative;
+    display:flex;
+    float: left;
+    flex-wrap: nowrap;
+    padding: 20px 10px;
+    width: 170px;
+     }
+     .menu_list li a:hover{
+       box-shadow: 0 11px 37.8px 5px rgba(37, 114, 230, 0.25);
+       background:#2572E6;
+       transition: 0.2s;
+       border:none;
+      }
+
+
+
+      .vlados{
+        position: absolute;
+        width: 430px;
+        height: 595px;
+        right:1287px;
+        top: 143px;
+      }
+      .vova{
+        position: absolute;
+        width: 430px;
+        height: 595px;
+        right:460px;
+        top: 143px;
+      }
+      .text_about p{
+        position: absolute; 
+        text-align: center;             
+        top: 143px;
+        right:897px;
+        max-width: 379px;
+        min-width: 370px;
+        height: 595px;
+        font-size: 35px;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: left;
+        color: #1d1d1b;
+}
+ .text_about2 p{
+    position: absolute;
+    text-align: center;
+    top: 143px;
+    right:65px;
+    width: 379px;
+    height: 595px;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: #1d1d1b;
+    font-size: 35px;
+
+ }
+ .fn .one {
+    position: absolute;
+    width: 798px;
+    height: 106px;
+    top: 746px;
+    right: 912px;
+    font-size: 58px;
+ }
+      .fn .two{
+        position: absolute;
+        width: 798px;
+        height: 106px;
+        top: 746px;
+        right:89px;
+        font-size: 58px;
+      }
+      .sn_vlad{
+        position: absolute;
+        width: 520px;
+        top: 860px;
+        right:1189px;
+        height: 37px;
+        font-size: 41px;
+        color: #2572e6;
+        text-decoration: none;
+      }
+      .sn_vlad2{
+        position: absolute;
+        width: 520px;
+        height: 37px;
+        font-size: 41px;
+        right: 1189px;
+        top: 901px;
+        color: #2572e6;
+        text-decoration: none;
+      }
+
+      .sn_vova{
+        position: absolute;
+        width: 520px;
+        top: 860px;
+        right:364px;
+        height: 37px;
+        font-size: 41px;
+        color: #2572e6;
+        text-decoration: none;
+      }
+
+      .sn_vova2{
+        position: absolute;
+        width: 520px;
+        top: 901px;
+        right:364px;
+        height: 37px;
+        font-size: 41px;
+        color: #2572e6;
+        text-decoration: none;
+      }

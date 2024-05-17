@@ -1,0 +1,226 @@
+@font-face {
+  font-family: 'Ermilov';
+  src: url('/fonts/Ermilov.eot');
+  src: url('/fonts/Ermilov.eot?#iefix') format('embedded-opentype'),
+       url('/fonts/Ermilov.woff2') format('woff2'),
+       url('/fonts/Ermilov.woff') format('woff'),
+       url('/fonts/Ermilov.ttf')  format('truetype'),
+       url('/fonts/Ermilov.svg#Ermilov') format('svg');
+}
+* {
+  font-family: 'Ermilov';
+  margin: 0;
+  padding: 0;
+  list-style: none ;
+  text-decoration: none ;
+  font-style: normal;
+}
+.logo{
+    width: 70px;
+    height:70px ;
+    top: 30px ;
+    left: 207px ;
+    border: 2.7px;
+   
+}
+.sitelogo{
+  position: absolute;
+  width: 882px;
+  height: 826px;
+  top: 102px;
+  left: 919px;
+  
+}
+.minilogo{
+  position: absolute;
+  width: 80px;
+  height: 87px;
+  top: 40px;
+  left: 207px;
+}
+body{
+  width: 1920px;
+  height: 228px;
+  padding: 30px 320px 112px 203px;
+  background-image: linear-gradient(to bottom, rgba(37, 114, 230, 0.5) 0%, rgba(37, 114, 230, 0) 50% ) ;
+  background-repeat: no-repeat;
+  }
+
+.items_menu a {
+text-decoration:none;
+color: white;
+}
+.items_menu  div {
+background:rgb(29, 29, 27, 1);
+}
+.items_menu{
+margin-left: 100px;
+}
+.menu_list li a{
+position: relative;
+background:rgb(29, 29, 27, 1);
+display:flex;
+padding: 20px;
+width: 150px;
+ justify-content: center;
+  
+
+}
+.menu_list li {
+font-weight: 700;
+color: #1d1d1b;
+position: relative;
+display:flex;
+float: left;
+flex-wrap: nowrap;
+padding: 20px 10px;
+width: 170px;
+}
+.menu_list li a:hover{
+  box-shadow: 0 11px 37.8px 5px rgba(37, 114, 230, 0.25);
+  background:#2572E6;
+  transition: 0.2s;
+  border:none;
+}
+.center{
+  top: 80px;
+  text-shadow: 0 0 50px rgba(0, 0, 0, 0.25);
+  font-family: 'Ermilov';
+  font-size: 96px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.91;
+  letter-spacing: normal;
+  text-align: left;
+  color: #1d1d1b;
+  position:relative;
+  display: block;
+  -ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none; 
+   width: 50%;
+  }
+  
+
+.first_letter{
+  color: rgb(37,114,230);
+}
+.mini_center{
+  left: 6px;
+  top: 100px;
+  font-weight: 700;
+  position: relative;
+  display:block;
+  font-size: 35px;
+  width: 890px;
+  height: 85px;
+  object-fit: contain;
+  -ms-user-select: none; 
+	-moz-user-select: none; 
+	-webkit-user-select: none; 
+	user-select: none; 
+  background: linear-gradient(30deg, #2572E6  30%, white  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+#text{
+  left: 70px;
+  top: 85px;
+  display:block;
+  padding: 5px 0 0 15px;
+  width: 590px;
+  position: relative;
+  height: 50px;
+  box-shadow: 0 11px 37.8px 5px rgba(113, 101, 177, 0);
+  border: solid 4px #1d1d1b;
+  background-color: rgba(37, 114, 230, 0);
+}
+#email{
+  left: 70px;
+  top: 175px;
+  padding: 5px 0 0 15px;
+  display:block;
+  width: 590px;
+  position: relative;
+  height: 50px;
+  box-shadow: 0 11px 37.8px 5px rgba(113, 101, 177, 0);
+  border: solid 4px #1d1d1b;
+  background-color: rgba(37, 114, 230, 0);
+}
+#number{
+  left: 70px;
+  top: 35px;
+  width: 590px;
+  padding: 5px 0 0 15px;
+  display: block;
+  position: relative;
+  height: 50px;
+  box-shadow: 0 11px 37.8px 5px rgba(113, 101, 177, 0);
+  border: solid 4px #1d1d1b;
+  background-color: rgba(37, 114, 230, 0);
+}
+.man{
+  height: 55px;
+  left: 14px;
+  top: -104px;
+  width: 51px;
+  position: absolute;
+  box-shadow: 0 11px 37.8px 5px rgba(113, 101, 177, 0);
+  border: solid 4px #1d1d1b;
+  background-color: rgba(37, 114, 230, 0)
+  
+}
+.ua{
+  height: 55px;
+  left: 15px;
+  top: -28px;
+  width: 50px;
+  position: absolute;
+  box-shadow: 0 11px 37.8px 5px rgba(113, 101, 177, 0);
+  border: solid 4px #1d1d1b;
+  background-color: rgba(37, 114, 230, 0)
+}
+.mail{
+  height: 55px;
+  top: 49px;
+  left: 15px;
+  width: 50px;
+  position: absolute;
+  box-shadow: 0 11px 37.8px 5px rgba(113, 101, 177, 0);
+  border: solid 4px #1d1d1b;
+  background-color: rgba(37, 114, 230, 0)
+}
+.image_items{
+  position: relative;
+}
+.button{
+  top: 100px;
+  margin: 5px;
+  padding: 20px;
+  position: relative;
+  display: block;
+}
+.items_button{
+  border: none;
+  right: 15px;
+  width: 668px;
+  margin: 5px;
+  padding: 20px;
+  position: relative;
+  display: block;
+  font-size: 21px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #fff;
+  background-color: #2572e6;
+}
+.items_button:hover{
+  box-shadow: 0 11px 37.8px 5px rgba(37, 114, 230, 0.25);
+  transition: 0.4em;
+}

@@ -1,0 +1,234 @@
+@font-face {
+    font-family: 'Ermilov';
+    src: url('/fonts/Ermilov.eot');
+    src: url('/fonts/Ermilov.eot?#iefix') format('embedded-opentype'),
+         url('/fonts/Ermilov.woff2') format('woff2'),
+         url('/fonts/Ermilov.woff') format('woff'),
+         url('/fonts/Ermilov.ttf')  format('truetype'),
+         url('/fonts/Ermilov.svg#Ermilov') format('svg');
+}
+  * {
+    font-family: 'Ermilov';
+    margin: 0;
+    padding: 0;
+    list-style: none ;
+    text-decoration: none ;
+    font-style: normal;
+  }
+  body{
+   width: 1920px;
+   height: 228px;
+   padding: 30px 320px 112px 203px;
+   background-image: linear-gradient(to bottom, rgba(37, 114, 230, 0.5) 0%, rgba(37, 114, 230, 0) 50% ) ;
+   background-repeat: no-repeat;
+   }
+   .logo{
+     width: 70px;
+     height:70px ;
+     top: 30px ;
+     left: 207px ;
+     border: 2.7px;
+  }
+  .minilogo{
+     position: absolute;
+     width: 80px;
+     height: 87px;
+     top: 40px;
+     left: 207px;
+   }
+    .items_menu a {
+    text-decoration:none;
+    color: white;
+    }
+    .items_menu  div {
+    background:rgb(29, 29, 27, 1);
+    }
+    .items_menu{
+    margin-left: 100px;
+    }
+    .menu_list li a{
+    position: relative;
+    background:rgb(29, 29, 27, 1);
+    display:flex;
+    padding: 20px;
+    width: 150px;
+     justify-content: center;
+    }
+    .menu_list li {
+    font-weight: 700;
+    color: #1d1d1b;
+    position: relative;
+    display:flex;
+    float: left;
+    flex-wrap: nowrap;
+    padding: 20px 10px;
+    width: 170px;
+     }
+     .menu_list li a:hover{
+       box-shadow: 0 11px 37.8px 5px rgba(37, 114, 230, 0.25);
+       background:#2572E6;
+       transition: 0.2s;
+       border:none;
+      }
+
+      
+      
+      .list--image {
+        position: absolute;
+        display: flex;
+  right:971px;
+  top: 148px;
+  width: 746px;
+  height: 430px;
+        background: black;
+        opacity: 1;
+    }
+    
+    .list--image:hover .image {
+       opacity: 0.5;
+       transition: 0.5em;
+       
+    }
+    .list--image p{
+      display: none;
+    }
+    .list--image:hover p {
+      color: white;
+      position:absolute;
+      text-align: center;
+      line-height: 400px;
+      left: 150px;
+      display: inline;
+      
+    }
+    .list--image2 {
+      position: absolute;
+      display: flex;
+      right: 203px;
+      width: 752px;
+      height: 675px;
+      top: 148px;
+      background:black;
+      opacity: 1;
+    }
+    .list--image2:hover .image2{
+      opacity: 0.5;
+      transition: 0.5em;
+    }
+    .list--image2 p{
+      display: none;
+    }
+    .list--image2:hover p{
+      color: white;
+      position: absolute;
+      text-align: center;
+      line-height: 650px;
+      left: 150px;
+      display: inline;
+    }
+    .list--image3{
+      position: absolute;
+      display: flex;
+      right: 1361px;
+      top: 593px;
+      width: 355px;
+      height: 392px;
+      background:black;
+      opacity: 1;
+    }
+     .list--image3:hover .image3{
+      opacity: 0.5;
+      transition: 0.5em;
+     }
+     .list--image3 p{
+      display: none;
+     }
+     .list--image3:hover p{
+      color: white;
+      position: absolute;
+      text-align: center;
+      line-height: 400px;
+      display: inline;
+      left: 30px;
+     }
+     .list--image4{
+      position: absolute;
+      display: flex;
+      right: 971px;
+      top: 593px;
+      width: 375px;
+      height: 389px;
+      background:black;
+      opacity: 1;
+
+     }
+     .list--image4:hover .image4{
+      opacity: 0.5;
+      transition: 0.5em;
+     }
+     .list--image4 p{
+      display: none;
+     }
+     .list--image4:hover p{
+      color: white;
+      position: absolute;
+      text-align: center;
+      line-height: 40px;
+      display: inline;
+      left: 20px;
+      top: 120px;
+     }
+      
+     .list--image5{
+      position: absolute;
+      display: flex;
+      right:205px;
+      top:836px;
+      width: 753px;
+      height: 622px;
+      background:black;
+      opacity: 1;
+    }
+    .list--image5:hover .image5{
+      opacity: 0.5;
+      transition: 0.5em;
+    }
+    .list--image5 p{
+      display: none;
+    }
+    .list--image5:hover p{
+      color: white;
+      position: absolute;
+      text-align: center;
+      line-height: 600px;
+      display: inline;
+      left: 150px;
+    }
+    
+    .list--image6{
+      position: absolute;
+      display: flex;
+      right: 971px;
+      top: 997px;
+      height: 455px;
+      width: 746px;
+      background:black;
+      opacity: 1;
+    }
+    .list--image6:hover .image6{
+      opacity: 0.5;
+      transition:  0.5em;
+    }
+    .list--image6 p{
+      display: none;
+    }
+    .list--image6:hover p{
+      color: white;
+      position: absolute;
+      text-align: center;
+      line-height: 40px;
+      display: inline;
+      left: 30px;
+      top: 190px;
+    }
+
